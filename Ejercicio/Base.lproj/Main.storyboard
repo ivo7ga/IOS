@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ejercicio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHJ-y3-KU3">
+                                <rect key="frame" x="40" y="815" width="100" height="27"/>
+                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Atrás">
+                                            <attributes>
+                                                <font key="NSFont" size="11" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBP-NS-JCX">
+                                <rect key="frame" x="274" y="815" width="100" height="27"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ODF-XA-BZ2"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="0.0" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Siguiente">
+                                            <attributes>
+                                                <font key="NSFont" size="11" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="C68ACEDA-4383-443A-8781-2B81F58F26D0_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="fpW-ii-mA2">
+                                <rect key="frame" x="10" y="300" width="394" height="296"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fpW-ii-mA2" secondAttribute="height" multiplier="4:3" id="HK9-zE-TbQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vista desde el monte Igueldo en San Sebastián" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8x-K3-ly9">
+                                <rect key="frame" x="29" y="260" width="356" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Esta foto inspira lo que es la grandeza del mar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ub-05-CVw">
+                                <rect key="frame" x="32.5" y="616" width="349" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JHJ-y3-KU3" secondAttribute="bottom" constant="60" id="7dc-df-vQK">
+                                <variation key="heightClass=compact" constant="20"/>
+                                <variation key="heightClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="zBP-NS-JCX" firstAttribute="centerY" secondItem="JHJ-y3-KU3" secondAttribute="centerY" id="Cqa-GQ-pfL"/>
+                            <constraint firstItem="fpW-ii-mA2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ew1-9X-cmr">
+                                <variation key="heightClass=compact" constant="-20"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="fpW-ii-mA2" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="KV9-cL-9g9">
+                                <variation key="heightClass=compact" constant="90"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="190"/>
+                            </constraint>
+                            <constraint firstItem="o8x-K3-ly9" firstAttribute="centerX" secondItem="fpW-ii-mA2" secondAttribute="centerX" id="OVq-6Q-pKd"/>
+                            <constraint firstItem="JHJ-y3-KU3" firstAttribute="width" secondItem="zBP-NS-JCX" secondAttribute="width" id="Pzp-hC-RHO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zBP-NS-JCX" secondAttribute="trailing" constant="40" id="e76-RE-pkX"/>
+                            <constraint firstItem="8Ub-05-CVw" firstAttribute="top" secondItem="fpW-ii-mA2" secondAttribute="bottom" constant="20" id="frA-4U-4RM"/>
+                            <constraint firstItem="zBP-NS-JCX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JHJ-y3-KU3" secondAttribute="trailing" constant="15" id="ruw-dW-Ujy"/>
+                            <constraint firstItem="8Ub-05-CVw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sO0-RP-y4Y"/>
+                            <constraint firstItem="fpW-ii-mA2" firstAttribute="top" secondItem="o8x-K3-ly9" secondAttribute="bottom" constant="20" id="saF-Re-GRd"/>
+                            <constraint firstItem="fpW-ii-mA2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ugQ-8s-81f"/>
+                            <constraint firstItem="JHJ-y3-KU3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="v1V-2i-I84"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="C68ACEDA-4383-443A-8781-2B81F58F26D0_1_105_c" width="1024" height="768"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
